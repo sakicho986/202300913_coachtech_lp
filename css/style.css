@@ -1,3 +1,6 @@
+body * {
+  box-sizing: border-box;
+}
 .container {
   width: 100%;
   position: absolute;
@@ -94,17 +97,17 @@
   margin-bottom: 1%;
   font-family: Indie Flower;
   position: relative;
-  left: 23vw;
   font-size: 150%;
+  padding: 0 0 0 23%;
 }
 
 .news-ttl {
   margin-bottom: 2%;
   position: relative;
-  left: 24vw;
   font-weight: bold;
   color: #696969;
   font-size: 200%;
+  padding: 0 0 0 23%;
 }
 
 .news-list-date {
@@ -170,7 +173,7 @@
   color: #696969;
   top: 40vw;
   font-size: 100%;
-  left: 10vw;
+  padding: 0 0 0 20%;
   line-height: 2vw;
 }
 .layout-text2 {
@@ -178,7 +181,7 @@
   color: #696969;
   top: 42vw;
   font-size: 100%;
-  left: 10vw;
+  padding: 0 0 0 20%;
   line-height: 2vw;
 }
 .layout-img{
@@ -195,12 +198,13 @@
 .service{
   width: 100%;
   position: absolute;
-  top: 132vw;
+  top: 130vw;
 }
 .service-ttl{
   position: relative;
-  left: 20vw;
   margin-bottom: 1%;
+  top: 1vw;
+  padding-left: 20%;
 }
 .service-ttl-text{
   color: #c71585;
@@ -214,25 +218,29 @@
   font-weight: bold;
   font-size: 200%;
 }
+.service-image{
+  width: 100%;
+  padding-left: 30%;
+}
 .service-image-img1{
   position: relative;
+  left: -13%;
   background: #B31A5E;
   height: 30vw;
-  width: 30%;
+  width: 45%;
   color: #fff;
-  left: 20vw;
-  }
+}
 .service-image-img1 img{
-  position: relative;
-  left: 10vw;
+  display: block;
   width: 40%;
   margin-top: 2vw;
+  margin-left: 25%;
 }
 .service-image-ttl1{
   font-size: 2vw;
   position: relative;
-  left: 11vw;
   top: 3vw;
+  margin-left: 30%;
 }
 .service-image-text1{
   position: relative;
@@ -246,19 +254,18 @@
   position: relative;
   background: #bb5588;
   height: 15vw;
-  width: 30%;
+  width: 43%;
   color: #fff;
-  left: 49.8vw;
   top: -30vw;
+  margin: 0 0 0 28%;
 }
 .service-image-img2 img {
   position: relative;
   width: 35%;
-  left: 1vw;
   top: 1vw;
 }
 .service-image-ttl2 {
-  font-size: 120%;
+  font-size: 1.5vw;
   position: relative;
   left: 12vw;
   top: -50%;
@@ -267,7 +274,7 @@
   position: relative;
   font-size: 20%;
   top: -6vw;
-  left: 12vw;
+  margin-left: 40%;
   text-align: left;
   line-height: 1.5vw;
 }
@@ -275,11 +282,11 @@
   position: relative;
   background: #bb99aa;
   height: 15vw;
-  width: 30%;
+  width: 43%;
   color: #fff;
-  left: 49.8vw;
   top: -30vw;
-  }
+  margin: 0 0 0 28%;
+}
 .service-image-img3 img {
   position: relative;
   width: 35%;
@@ -287,7 +294,7 @@
   top: 1vw;
 }
 .service-image-ttl3{
-  font-size: 120%;
+  font-size: 1.5vw;
   position: relative;
   left: 12vw;
   top: -50%;
@@ -296,7 +303,7 @@
   position: relative;
   font-size: 20%;
   top: -6vw;
-  left: 12vw;
+  margin-left: 40%;
   text-align: left;
   line-height: 1.5vw;
 }
@@ -307,12 +314,11 @@
   position: absolute;
   top: 175vw;
   background-color: #f2f2f2;
-  height: 75%;
+  height: 90%;
   padding: 3%;
 }
 .post-group{
-  position: relative;
-  left: 17vw;
+  padding-left: 16%;
 }
 .post-group-text{
   color: #c71585;
@@ -343,7 +349,7 @@
   justify-content: center;
 }
 .post-wrapper-card-cat{
-  top: -13.34vw;
+  top: -12.5vw;
   display: inline-block;
   padding: 5% 10%;
   background-color: #c71585;
@@ -358,7 +364,7 @@
   text-align: left;
   position: relative;
   top: -1.5vw;
-  left: 3vw;
+  left: 1.2vw;
 }
 .post-wrapper-card-text{
   color: #696969;
@@ -371,11 +377,11 @@
   margin-left: 1vw;
 }
 .post-wrapper-card-item-last{
-  margin-left: 5vw;
+  margin-left: 3vw;
 }
 .post-download{
   position: absolute;
-  top: 91%;
+  top: 88%;
   left: 48vw;
   width: 10vw;
   height: 3vw;
@@ -401,7 +407,7 @@
 }
 .profile-group{
   position: relative;
-  left: 25vw;
+  padding-left: 24%;
 }
 .profile-group-text{
   color: #c71585;
@@ -447,20 +453,20 @@
   justify-content: center;
 }
 .recruit-info img{
-  width: 100%;
+  width: 50vw;
   z-index: 0;
 }
 .recruit-info-text{
   position: relative;
   top: -50%;
-  left: 35%;
+  padding-left: 30%;
   z-index: 10;
   color: #fff;
   font-weight: bold;
   font-size: 200%;
 }
 .recruit-interview img{
-  width: 100%;
+  width: 50vw;
 }
 .recruit-interview-text{
   position: relative;
@@ -469,20 +475,20 @@
   font-weight: bold;
   font-size: 200%;
   top: -50%;
-  left: 33%;
+  padding-left: 30%;
 }
 
 .block{
   width: 100%;
   position: absolute;
   top: 285vw;
-  left: 38%;
 }
 .block-text{
   color: #696969;
   font-weight: bold;
-  font-size: 200%;
+  font-size: 150%;
   margin-bottom: 1vw;
+  text-align: center;
 }
 .block-border::after{
   content: "";
@@ -491,12 +497,12 @@
   height: 40px;
   background-color: #a52a2a;
   position: absolute;
-  left: 12%;
+  left: 50%;
 }
 .block-btn {
   position: absolute;
-  top: 200%;
-  left: 7%;
+  top: 230%;
+  left: 45%;
   width: 10vw;
   height: 3vw;
   background: linear-gradient(90deg,#f6378a,#e50b69,#be0957);
