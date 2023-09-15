@@ -459,11 +459,11 @@ body * {
 .recruit-info-text{
   position: relative;
   top: -50%;
-  padding-left: 30%;
   z-index: 10;
   color: #fff;
   font-weight: bold;
   font-size: 200%;
+  text-align: center;
 }
 .recruit-interview img{
   width: 50vw;
@@ -475,7 +475,7 @@ body * {
   font-weight: bold;
   font-size: 200%;
   top: -50%;
-  padding-left: 30%;
+  text-align: center;
 }
 
 .block{
