@@ -5,38 +5,30 @@ body * {
   width: 100%;
   position: absolute;
 }
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .header-ttl img {
   width: 20%;
 }
-
 .header-nav {
   padding-right: 13vw;
 }
-
 .header-nav-list {
   display: flex;
 }
-
 .header-nav-list-item {
   padding: 3% 3%;
   text-decoration: none;
 }
-
 .header-nav-list-item-link {
   text-decoration: none;
 }
-
 .main {
   position: relative;
 }
-
 .main-ttl {
   font-family: Gloria Hallelujah;
   font-size: 4vw;
@@ -48,21 +40,17 @@ body * {
   font-weight: lighter;
   text-align: left;
 }
-
 .title-img {
   width: 100%;
 }
-
 .title-img img {
   width: 60%;
   margin: 0 0 0 auto;
   display: block;
 }
-
 .main-ttl-color {
   color: #008b8b;
 }
-
 .main-text {
   color: #c71585;
   font-size: 1.5vw;
@@ -70,7 +58,6 @@ body * {
   left: 21vw;
   top: 20vw;
 }
-
 .main-note {
   color: #696969;
   line-height: 1.5vw;
@@ -79,19 +66,16 @@ body * {
   left: 21vw;
   text-align: left;
 }
-
 .news {
   position: absolute;
   width: 100%;
   margin-top: 6%;
 }
-
 .news-list {
   width: 60%;
   position: relative;
   left: 6%;
 }
-
 .news-text {
   color: #c71585;
   margin-bottom: 1%;
@@ -100,7 +84,6 @@ body * {
   font-size: 150%;
   padding: 0 0 0 23%;
 }
-
 .news-ttl {
   margin-bottom: 2%;
   position: relative;
@@ -109,7 +92,6 @@ body * {
   font-size: 200%;
   padding: 0 0 0 23%;
 }
-
 .news-list-date {
   display: flex;
   flex-direction: row;
@@ -120,16 +102,13 @@ body * {
   margin: 1% 0;
   padding: 1% 0;
 }
-
 .news-list-date:first-child {
   border-top: solid 2px #d3d3d3;
   padding: 3% 0;
 }
-
 .news-list-date:last-child {
   border-bottom: solid 2px #d3d3d3;
 }
-
 .news-list-note {
   border-radius: 30px;
   background: #c71585;
@@ -137,7 +116,6 @@ body * {
   padding: 0.5% 2%;
   margin: 0 3%;
 }
-
 .layout{
   width: 100%;
   position: absolute;
@@ -193,8 +171,6 @@ body * {
   top: 28vw;
   left: 70vw;
 }
-
-
 .service{
   width: 100%;
   position: absolute;
@@ -307,8 +283,6 @@ body * {
   text-align: left;
   line-height: 1.5vw;
 }
-
-
 .post {
   width: 100%;
   position: absolute;
@@ -398,8 +372,6 @@ body * {
   display: inline-block;
   text-decoration: none;
 }
-
-
 .profile{
   width: 100%;
   position: absolute;
@@ -443,8 +415,6 @@ body * {
   border: 2px solid #e2e2e2;
   color: #6c6c6c;
 }
-
-
 .recruit{
   width: 100%;
   position: absolute;
@@ -477,7 +447,6 @@ body * {
   top: -50%;
   text-align: center;
 }
-
 .block{
   width: 100%;
   position: absolute;
